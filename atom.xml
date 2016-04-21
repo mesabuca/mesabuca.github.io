@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://mesabuca.github.io/atom.xml" rel="self"/>
   <link href="http://mesabuca.github.io/"/>
-  <updated>2016-04-09T17:31:05+03:00</updated>
+  <updated>2016-04-21T16:03:46+03:00</updated>
   <id>http://mesabuca.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,5 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Introduction]]></title>
+    <link href="http://mesabuca.github.io/blog/2016/04/21/introduction/"/>
+    <updated>2016-04-21T15:02:53+03:00</updated>
+    <id>http://mesabuca.github.io/blog/2016/04/21/introduction</id>
+    <content type="html"><![CDATA[<p>  Hello I am Mehmet Şamil BÜYÜKÇAĞLAYAN and I am starting to learn new programming language which is created by Yukihiro Matsumoto.
+Ruby is a Object oriented language and it is legibility. If you know English you can understand easily. For example
+<code>10.times.puts("Hello World!")</code>. it prints  10 times &lsquo;Hello World!&rsquo;.In another example <code>a = "hello" \\ a.upcase</code>.It makes
+letters uppercase. Unlike some other languages it is interpreted language.It means it can work until wrong code and it makes finding
+problem easier.And also programmer can explain him self to computer with it I&rsquo;m gonna tell other good things when its turns come.</p>
+]]></content>
+  </entry>
   
 </feed>
