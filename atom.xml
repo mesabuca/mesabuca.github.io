@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://mesabuca.github.io/atom.xml" rel="self"/>
   <link href="http://mesabuca.github.io/"/>
-  <updated>2016-04-21T16:03:46+03:00</updated>
+  <updated>2016-04-21T16:09:37+03:00</updated>
   <id>http://mesabuca.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Let's Start]]></title>
+    <link href="http://mesabuca.github.io/blog/2016/04/21/lets-start/"/>
+    <updated>2016-04-21T16:08:06+03:00</updated>
+    <id>http://mesabuca.github.io/blog/2016/04/21/lets-start</id>
+    <content type="html"><![CDATA[<p>  Let&rsquo;s start with classic :) . &lsquo;Hello world!&rsquo; . As I said, its so simple <code>puts "Hello World!"</code> or <code>print "Hello World!"</code>
+There is only one differences between them. That is &lsquo;puts&rsquo; ending the line I mean when you put something next step will come
+bellow that output.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Introduction]]></title>
