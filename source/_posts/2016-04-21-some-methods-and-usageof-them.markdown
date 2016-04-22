@@ -23,7 +23,7 @@ reverse         # It ıs reversing words but only strings.
 to_s            # Its converting to strings
 to_i            # Its converting to integer
 to_a            # Its converting to array
-each	        # Processing each variable in arrays
+each            # Processing each variable in arrays
 split           # it takes in a string and returns an array.
-to_sym          # it convert to symbol and using symbol faster than string
+to_sym          # its converting to symbol and using symbol faster than string
 ```
