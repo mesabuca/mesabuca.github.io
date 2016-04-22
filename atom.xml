@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://mesabuca.github.io/atom.xml" rel="self"/>
   <link href="http://mesabuca.github.io/"/>
-  <updated>2016-04-21T16:17:03+03:00</updated>
+  <updated>2016-04-22T14:36:48+03:00</updated>
   <id>http://mesabuca.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Arithmetic Operators]]></title>
+    <link href="http://mesabuca.github.io/blog/2016/04/21/arithmetic-operators/"/>
+    <updated>2016-04-21T16:26:34+03:00</updated>
+    <id>http://mesabuca.github.io/blog/2016/04/21/arithmetic-operators</id>
+    <content type="html"><![CDATA[<p>*Operators                  Description                                                            Examples</p>
+
+<pre><code>'+'     Addition - Adds values on either side of the operator                               a + b will give 30
+'-'     Subtraction - Subtracts right hand operand from left hand operand                   a - b will give -10
+'*'     Multiplication - Multiplies values on either side of the operator                   a * b will give 200
+'/'     Division - Divides left hand operand by right hand operand                          b / a will give 2
+'%'     Modulus - Divides left hand operand by right hand operand and returns remainder     b % a will give 0
+'**'    Exponent - Performs exponential (power) calculation on operators                    a**b will give 10 to the power 20*
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Some Methods and Usageof Them]]></title>
@@ -35,18 +52,18 @@ And here is some methods with means :</p>
 <span class='line-number'>10</span>
 <span class='line-number'>11</span>
 <span class='line-number'>12</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">gets</span>            <span class="o">--</span> <span class="n">getting</span> <span class="n">a</span> <span class="n">integer</span> <span class="ow">or</span> <span class="n">string</span> <span class="ow">or</span> <span class="n">anything</span>
-</span><span class='line'><span class="nb">chomp</span>           <span class="o">--</span> <span class="k">when</span> <span class="n">yo</span> <span class="n">enter</span> <span class="n">a</span> <span class="n">space</span> <span class="n">character</span> <span class="n">it</span> <span class="n">cleans</span> <span class="n">that</span> <span class="n">spaces</span>
-</span><span class='line'><span class="n">capitalize</span>      <span class="o">--</span> <span class="no">Its</span> <span class="n">make</span> <span class="n">capitalize</span> <span class="n">the</span> <span class="n">word</span><span class="err">&#39;</span><span class="n">s</span> <span class="n">first</span> <span class="n">character</span>
-</span><span class='line'><span class="n">upcase</span>          <span class="o">--</span> <span class="no">Its</span> <span class="n">make</span> <span class="n">capitalize</span> <span class="n">all</span> <span class="n">words</span>
-</span><span class='line'><span class="n">downcase</span>        <span class="o">--</span> <span class="no">Its</span> <span class="n">make</span> <span class="n">small</span> <span class="n">all</span> <span class="n">character</span>
-</span><span class='line'><span class="n">reverse</span>         <span class="o">--</span> <span class="no">It</span> <span class="err">ı</span><span class="n">s</span> <span class="n">reversing</span> <span class="n">words</span> <span class="n">but</span> <span class="n">only</span> <span class="n">strings</span><span class="o">.</span>
-</span><span class='line'><span class="nb">to_s</span>            <span class="o">--</span> <span class="no">Its</span> <span class="n">converting</span> <span class="n">to</span> <span class="n">strings</span>
-</span><span class='line'><span class="n">to_i</span>            <span class="o">--</span> <span class="no">Its</span> <span class="n">converting</span> <span class="n">to</span> <span class="n">integer</span>
-</span><span class='line'><span class="nb">to_a</span>            <span class="o">--</span> <span class="no">Its</span> <span class="n">converting</span> <span class="n">to</span> <span class="n">array</span>
-</span><span class='line'><span class="n">each</span>            <span class="o">--</span> <span class="no">Processing</span> <span class="n">each</span> <span class="n">variable</span> <span class="k">in</span> <span class="n">arrays</span>
-</span><span class='line'><span class="nb">split</span>           <span class="o">--</span> <span class="n">it</span> <span class="n">takes</span> <span class="k">in</span> <span class="n">a</span> <span class="n">string</span> <span class="ow">and</span> <span class="n">returns</span> <span class="n">an</span> <span class="n">array</span><span class="o">.</span>
-</span><span class='line'><span class="n">to_sym</span>          <span class="o">--</span> <span class="n">it</span> <span class="n">convert</span> <span class="n">to</span> <span class="n">symbol</span> <span class="ow">and</span> <span class="n">using</span> <span class="n">symbol</span> <span class="n">faster</span> <span class="n">than</span> <span class="n">string</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">gets</span>            <span class="c1"># getting a integer or string or anything</span>
+</span><span class='line'><span class="nb">chomp</span>           <span class="c1"># when yo enter a space character it cleans that spaces</span>
+</span><span class='line'><span class="n">capitalize</span>      <span class="c1"># Its make capitalize the word&#39;s first character</span>
+</span><span class='line'><span class="n">upcase</span>          <span class="c1"># Its make capitalize all words</span>
+</span><span class='line'><span class="n">downcase</span>        <span class="c1"># Its make small all character</span>
+</span><span class='line'><span class="n">reverse</span>         <span class="c1"># It ıs reversing words but only strings.</span>
+</span><span class='line'><span class="nb">to_s</span>            <span class="c1"># Its converting to strings</span>
+</span><span class='line'><span class="n">to_i</span>            <span class="c1"># Its converting to integer</span>
+</span><span class='line'><span class="nb">to_a</span>            <span class="c1"># Its converting to array</span>
+</span><span class='line'><span class="n">each</span>            <span class="c1"># Processing each variable in arrays</span>
+</span><span class='line'><span class="nb">split</span>           <span class="c1"># it takes in a string and returns an array.</span>
+</span><span class='line'><span class="n">to_sym</span>          <span class="c1"># its converting to symbol and using symbol faster than string</span>
 </span></code></pre></td></tr></table></div></figure>
 
 ]]></content>
