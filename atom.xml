@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://mesabuca.github.io/atom.xml" rel="self"/>
   <link href="http://mesabuca.github.io/"/>
-  <updated>2016-04-22T14:36:48+03:00</updated>
+  <updated>2016-04-22T14:58:24+03:00</updated>
   <id>http://mesabuca.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -14,18 +14,58 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Compression Operators]]></title>
+    <link href="http://mesabuca.github.io/blog/2016/04/22/compression-operators/"/>
+    <updated>2016-04-22T14:42:11+03:00</updated>
+    <id>http://mesabuca.github.io/blog/2016/04/22/compression-operators</id>
+    <content type="html"><![CDATA[<p>a = 10  , b = 20</p>
+
+<pre><code>Operators       Description                                                                     Example
+
+'=='    Checks if the value of two operands are equal or not,                               (a == b) is not true. 
+         if yes then condition becomes true.
+
+'!='    Checks if the value of two operands are equal or not,                               (a != b) is true. 
+         if values are not equal then condition becomes true.
+
+'&gt;'     Checks if the value of left operand is greater than the value of right operand,     (a &gt; b) is not true. 
+        if yes then condition becomes true.
+
+'&lt;'     Checks if the value of left operand is less than the value of right operand,        (a &lt; b) is true. 
+    if yes then condition becomes true.
+
+'&gt;='    Checks if the value of left operand is greater than or equal to the value of right  (a &gt;= b) is not true. 
+        operand, if yes then condition becomes true.
+
+'&lt;='    Checks if the value of left operand is less than or equal to the value of right     (a &lt;= b) is true.
+        operand, if yes then condition becomes true.
+
+'&lt;=&gt;'   Combined comparison operator. Returns 0 if first operand equals second, 1 if first  (a &lt;=&gt; b) returns -1. 
+        operand is greater than the second and -1 if first operand is less than the second.
+
+'==='   Used to test equality within a when clause of a case statement.                     (1...10) === 5 returns true.
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Arithmetic Operators]]></title>
     <link href="http://mesabuca.github.io/blog/2016/04/21/arithmetic-operators/"/>
     <updated>2016-04-21T16:26:34+03:00</updated>
     <id>http://mesabuca.github.io/blog/2016/04/21/arithmetic-operators</id>
-    <content type="html"><![CDATA[<p>*Operators                  Description                                                            Examples</p>
+    <content type="html"><![CDATA[<pre><code>Operators       Description                                                                     Example
 
-<pre><code>'+'     Addition - Adds values on either side of the operator                               a + b will give 30
-'-'     Subtraction - Subtracts right hand operand from left hand operand                   a - b will give -10
-'*'     Multiplication - Multiplies values on either side of the operator                   a * b will give 200
-'/'     Division - Divides left hand operand by right hand operand                          b / a will give 2
-'%'     Modulus - Divides left hand operand by right hand operand and returns remainder     b % a will give 0
-'**'    Exponent - Performs exponential (power) calculation on operators                    a**b will give 10 to the power 20*
+   '+'      Addition - Adds values on either side of the operator                               a + b will give 30
+
+   '-'      Subtraction - Subtracts right hand operand from left hand operand                   a - b will give -10
+
+   '*'      Multiplication - Multiplies values on either side of the operator                   a * b will give 200
+
+   '/'      Division - Divides left hand operand by right hand operand                          b / a will give 2
+
+   '%'      Modulus - Divides left hand operand by right hand operand and returns remainder     b % a will give 0
+
+   '**'     Exponent - Performs exponential (power) calculation on operators                    a**b will give 10 to the power 20
 </code></pre>
 ]]></content>
   </entry>
