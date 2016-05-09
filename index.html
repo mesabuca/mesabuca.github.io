@@ -89,13 +89,42 @@ use it when ever you need &hellip;">
 
 
   <div class="entry-content"><p>Ruby methods are very similar to functions in any other programming language. Methods save you put you to a bother. You can
-use it when ever you need and also if you use it, code will be more understandable. How it saves yo put you to a bother?
+use it when ever you need and also if you use it, code will be more understandable. How it saves you put you to a bother?
 For example calculating average of students' exams. If you need to calculate each students exams you do not have to write it
 again and again. Define your method and then just call it. Well how we will write it. Method names should begin with a
-lowercase letter. If you begin a method name with an uppercase
+lowercase letter. If you begin a method naseme with an uppercase
 letter, Ruby might think that it is a constant and hence can parse the call incorrectly.
 Methods should be defined before calling them, otherwise Ruby will raise an exception for
-undefined method invoking.</p>
+undefined method invoking. You should just write</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">def</span> <span class="nf">method_name</span> <span class="p">(</span> <span class="n">parameter1</span><span class="p">,</span> <span class="n">parameter2</span> <span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1"># Your code</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>and if you wanna use it</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">method_name</span> <span class="p">(</span><span class="n">parameter1</span><span class="p">,</span> <span class="n">parameter</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p> and also if there is a return you can equal to something.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'> <span class="n">a</span> <span class="o">=</span> <span class="n">method_name</span> <span class="n">parameter1</span><span class="p">,</span> <span class="n">parameter2</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p> Actually you don&rsquo;t have to use paranthesis on parameters.</p>
 </div>
   
   
