@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://mesabuca.github.io/atom.xml" rel="self"/>
   <link href="http://mesabuca.github.io/"/>
-  <updated>2016-05-10T00:39:33+03:00</updated>
+  <updated>2016-05-26T00:11:40+03:00</updated>
   <id>http://mesabuca.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,37 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Lots of File]]></title>
+    <link href="http://mesabuca.github.io/blog/2016/05/25/lots-of-file/"/>
+    <updated>2016-05-25T23:41:26+03:00</updated>
+    <id>http://mesabuca.github.io/blog/2016/05/25/lots-of-file</id>
+    <content type="html"><![CDATA[<p>When we are working on small projects, we are writing all codes to one file but if you want to improve yourself you should
+know dividing your code to more than one files. When you begin using multiple files, you have a need for the Ruby&rsquo;s
+require and load methods (both are global functions defined in Object, but are used like language keywords) that help you
+include other files in your program.
+<br />
+<br />
+The load method includes the named Ruby source file every time the method is executed:
+<br /></p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">load</span> <span class="s1">&#39;filename.rb&#39;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The more commonly used require method loads any given file only once:
+<br /></p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">require</span> <span class="s1">&#39;filename&#39;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Methods]]></title>
