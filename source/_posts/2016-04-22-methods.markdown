@@ -10,23 +10,26 @@ Ruby methods are very similar to functions in any other programming language. Me
 use it when ever you need and also if you use it, code will be more understandable. How it saves you put you to a bother?
 For example calculating average of students' exams. If you need to calculate each students exams you do not have to write it
 again and again. Define your method and then just call it. Well how we will write it. Method names should begin with a 
-lowercase letter. If you begin a method name with an uppercase 
+lowercase letter. If you begin a method naseme with an uppercase 
 letter, Ruby might think that it is a constant and hence can parse the call incorrectly.
 Methods should be defined before calling them, otherwise Ruby will raise an exception for 
-undefined method invoking. You should just write 
+undefined method invoking. You should just write
+ 
 ```ruby
 def method_name ( parameter1, parameter2 )
 
 # Your code
 
 end
+
 ```
- and if you wanna use it 
- ```ruby
- method_name (parameter1, parameter)
- ```
+ 
+and if you wanna use it 
+```ruby
+method_name (parameter1, parameter)
+```
  and also if there is a return you can equal to something.
- ```ruby
+```ruby
  a = method_name parameter1, parameter2
- ```
+```
  Actually you don't have to use paranthesis on parameters.
