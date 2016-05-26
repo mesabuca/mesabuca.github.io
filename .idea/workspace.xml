@@ -55,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-05-26-introduction-to-control-flow.markdown" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2016-05-26-introduction-to-control-flow.markdown" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/2016-05-26-introduction-to-control-flow.markdown">
           <provider editor-type-id="MultiMarkdownFxPreviewEditor">
             <state />
@@ -64,6 +64,22 @@
             <state split_layout="FIRST">
               <first_editor relative-caret-position="414">
                 <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-05-26-boolean-operators.markdown" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/_posts/2016-05-26-boolean-operators.markdown">
+          <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="493">
+                <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -140,6 +156,7 @@
         <option value="$PROJECT_DIR$/source/_posts/2016-04-22-methods.markdown" />
         <option value="$PROJECT_DIR$/source/_posts/2016-05-25-lots-of-file.markdown" />
         <option value="$PROJECT_DIR$/source/_posts/2016-05-26-introduction-to-control-flow.markdown" />
+        <option value="$PROJECT_DIR$/source/_posts/2016-05-26-boolean-operators.markdown" />
       </list>
     </option>
   </component>
@@ -149,9 +166,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="-722" />
+    <option name="y" value="-747" />
     <option name="width" value="1366" />
-    <option name="height" value="722" />
+    <option name="height" value="747" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -378,15 +395,15 @@
       <workItem from="1462728006643" duration="2152000" />
       <workItem from="1462829457388" duration="991000" />
       <workItem from="1464208064526" duration="2699000" />
-      <workItem from="1464255512078" duration="677000" />
+      <workItem from="1464255512078" duration="2105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17014000" />
+    <option name="totallyTimeSpent" value="18442000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-722" width="1366" height="722" extended-state="6" />
+    <frame x="0" y="-747" width="1366" height="747" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23792094" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -890,6 +907,20 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="414">
             <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2016-05-26-boolean-operators.markdown">
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="493">
+            <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
             <folding />
           </first_editor>
           <second_editor />
