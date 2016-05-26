@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://mesabuca.github.io/atom.xml" rel="self"/>
   <link href="http://mesabuca.github.io/"/>
-  <updated>2016-05-26T12:40:12+03:00</updated>
+  <updated>2016-05-26T13:13:54+03:00</updated>
   <id>http://mesabuca.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,54 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Boolean Operators]]></title>
+    <link href="http://mesabuca.github.io/blog/2016/05/26/boolean-operators/"/>
+    <updated>2016-05-26T12:55:03+03:00</updated>
+    <id>http://mesabuca.github.io/blog/2016/05/26/boolean-operators</id>
+    <content type="html"><![CDATA[<p>Comparators aren&rsquo;t the only operators available to you in Ruby. You can also use logical or boolean operators.
+Ruby has three: and (&amp;&amp;), or (||), and not (!). Boolean operators result in boolean values: true or false.
+The boolean operator and, &amp;&amp;, only results in true when both expression on either side of &amp;&amp; are true.Ruby also has
+the or operator (||). Ruby&rsquo;s || is called an inclusive or because it evaluates to true when one or the other or both
+expressions are true.And the last one, Ruby has the boolean operator not (!). ! makes true values false, false values true.
+Here&rsquo;s how these works.</p>
+
+<p>And operator</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>true && true # =&gt; true
+</span><span class='line'>true && false # =&gt; false
+</span><span class='line'>false && true # =&gt; false
+</span><span class='line'>false && false # =&gt; false</span></code></pre></td></tr></table></div></figure>
+
+
+<p><br />
+Or operator</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>true || true # =&gt; true
+</span><span class='line'>true || false # =&gt; true
+</span><span class='line'>false || true # =&gt; true
+</span><span class='line'>false || false # =&gt; false
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Not operator</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>!true # =&gt; false
+</span><span class='line'>!false # =&gt; true</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Introduction to Control Flow]]></title>
