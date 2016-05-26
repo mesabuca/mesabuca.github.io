@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://mesabuca.github.io/atom.xml" rel="self"/>
   <link href="http://mesabuca.github.io/"/>
-  <updated>2016-05-26T12:29:00+03:00</updated>
+  <updated>2016-05-26T12:40:12+03:00</updated>
   <id>http://mesabuca.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,50 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Introduction to Control Flow]]></title>
+    <link href="http://mesabuca.github.io/blog/2016/05/26/introduction-to-control-flow/"/>
+    <updated>2016-05-26T12:37:07+03:00</updated>
+    <id>http://mesabuca.github.io/blog/2016/05/26/introduction-to-control-flow</id>
+    <content type="html"><![CDATA[<p>You can compare somethings with each other with control flow. For example :</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">grade</span> <span class="o">=</span> <span class="mi">50</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">if</span> <span class="n">grade</span> <span class="o">&lt;</span> <span class="mi">50</span>
+</span><span class='line'>  <span class="nb">puts</span> <span class="s2">&quot;You could not pass the exam&quot;</span>
+</span><span class='line'><span class="k">else</span>
+</span><span class='line'>  <span class="nb">puts</span> <span class="s2">&quot;You pass the exam&quot;</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1"># or</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">unless</span> <span class="n">grade</span> <span class="o">&gt;</span> <span class="mi">50</span>
+</span><span class='line'>  <span class="nb">puts</span> <span class="s2">&quot;You could not pass the exam&quot;</span>
+</span><span class='line'><span class="k">else</span>
+</span><span class='line'>  <span class="nb">puts</span> <span class="s2">&quot;You pass the exam&quot;</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>when you get over 50, it will say you pass.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Lots of File]]></title>
