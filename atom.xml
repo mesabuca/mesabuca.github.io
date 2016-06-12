@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://mesabuca.github.io/atom.xml" rel="self"/>
   <link href="http://mesabuca.github.io/"/>
-  <updated>2016-05-26T13:13:54+03:00</updated>
+  <updated>2016-06-12T18:57:51+03:00</updated>
   <id>http://mesabuca.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,52 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Loops]]></title>
+    <link href="http://mesabuca.github.io/blog/2016/05/26/loops-and-iterators/"/>
+    <updated>2016-05-26T13:19:23+03:00</updated>
+    <id>http://mesabuca.github.io/blog/2016/05/26/loops-and-iterators</id>
+    <content type="html"><![CDATA[<p>There are three operator for loops. These are <code>while</code>, <code>for</code> and <code>until</code>.
+These operators looping until they being false. And also they save you put you to a bother.
+For example you want to print 1 to 100.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">i</span> <span class="o">=</span> <span class="mi">1</span>
+</span><span class='line'><span class="k">while</span> <span class="n">i</span> <span class="o">!=</span> <span class="mi">100</span>
+</span><span class='line'>  <span class="nb">puts</span> <span class="n">i</span>
+</span><span class='line'>  <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1"># or</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">i</span> <span class="o">=</span> <span class="mi">1</span>
+</span><span class='line'><span class="k">unless</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">100</span>     <span class="c1">#You had to be careful at here only &#39;=&#39; equal something to another thing </span>
+</span><span class='line'>  <span class="nb">puts</span> <span class="n">i</span>            <span class="c1"># but &#39;==&#39; is controlling is they equal or not</span>
+</span><span class='line'>  <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1"># or</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Boolean Operators]]></title>
