@@ -1,0 +1,13 @@
+---
+layout: post
+title: "MVC"
+date: 2016-08-01 12:43:11 +0300
+comments: true
+categories: 
+---
+
+Hello everyone this post will be about MVC. MVC is a design pattern. MVC (Model-Views-Controller) is getting easier comminication between user and site. 
+<br>
+Firstly Controller is looking for actions and want some datas from model. Secondly model is asking to data-base for datas.And then when controller get the datas, it is processing on datas. Lastly views show us what we want. 
+<br>
+That's all for now see you on next post.

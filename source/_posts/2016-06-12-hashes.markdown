@@ -5,3 +5,5 @@ date: 2016-06-12 19:38:00 +0300
 comments: true
 categories: 
 ---
+
+Hashes are collection of key-values pairs like "february" --> "2" or "january" --> "1". A hash is a collection of objects like an array. The difference with arrays though, is that the indexes of a hashare not represented with integer values and hashes are collections of keys and their values . Instead, the key can be an object of any type! This means that instead of accessing your hash this way : result = my_hash[4], you can access it this way : result = my_hash['the_thing_im_looking_for'] or, to do things in a more rubyish manner : result = my_hash[:the_thing_im_looking_for]. To create a new hash from scratch, you just have to specify the various key/value pairs and separates them with the hash literal “=>” : `jobs = { :teachher => "John", :cop => "Kane", :cooker => "Dave"}` . You could write it as:  `jobs = { teacher: "John", cop: "Kane", cooker: "Dave" }`. When you write `jobs[:cop]` output is going to be `"Kane"`. Hashes are getting easier collecting and using datas.
