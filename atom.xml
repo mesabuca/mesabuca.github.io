@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://mesabuca.github.io/atom.xml" rel="self"/>
   <link href="http://mesabuca.github.io/"/>
-  <updated>2016-06-12T18:57:51+03:00</updated>
+  <updated>2016-08-01T13:55:40+03:00</updated>
   <id>http://mesabuca.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,66 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Cybele]]></title>
+    <link href="http://mesabuca.github.io/blog/2016/08/01/cybele/"/>
+    <updated>2016-08-01T12:58:18+03:00</updated>
+    <id>http://mesabuca.github.io/blog/2016/08/01/cybele</id>
+    <content type="html"><![CDATA[<p>Hello every one This post for a gem which called as Cybele. Cybele is just like rails but it is present a prepared draft for developer. Just you had to write <code>cybele [project_name]</code>, after you download the cybele. This command gave you a template which you can do some changes on that. There is some minus but it&rsquo;ll be fixed in shor time. If you want more information about this gem <a href="https://github.com/lab2023/cybele">click here</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[MVC]]></title>
+    <link href="http://mesabuca.github.io/blog/2016/08/01/mvc/"/>
+    <updated>2016-08-01T12:43:11+03:00</updated>
+    <id>http://mesabuca.github.io/blog/2016/08/01/mvc</id>
+    <content type="html"><![CDATA[<p>Hello everyone this post will be about MVC. MVC is a design pattern. MVC (Model-Views-Controller) is getting easier comminication between user and site.
+<br>
+Firstly Controller is looking for actions and want some datas from model. Secondly model is asking to data-base for datas.And then when controller get the datas, it is processing on datas. Lastly views show us what we want.
+<br>
+That&rsquo;s all for now see you on next post.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Semantic Versioning]]></title>
+    <link href="http://mesabuca.github.io/blog/2016/08/01/semantic-versioning/"/>
+    <updated>2016-08-01T11:12:04+03:00</updated>
+    <id>http://mesabuca.github.io/blog/2016/08/01/semantic-versioning</id>
+    <content type="html"><![CDATA[<p>Hello every one in this post I&rsquo;m gonna talk about Semantic Versioning (semver). This versioning style is making easier improving your project. Improvable projects, day by day getting more bigger but controlling is getting more difficult because of that Semver founded. There are three number on this versioning <br>
+1. Major <br>
+2. Minor <br>
+3. Patch <br>
+Patch : If you found and fix a bug, when you are releasing you should increase one, but it had to be backwards-compatible <br>
+Minor : If you wanna add some little new features you should increase one here, but again!! it had to be backwards-compatible. And when you increase this part the patch had to be reset.
+<br>
+Major : When you change your project like when you are makeing incompatible API changes you&rsquo;re increasin here, but id had not to be backwards-compatible. And when you increase this part the patch and minor had to be reset.
+<br>
+See you on my next post.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Web Developing]]></title>
+    <link href="http://mesabuca.github.io/blog/2016/08/01/web-developing/"/>
+    <updated>2016-08-01T11:05:12+03:00</updated>
+    <id>http://mesabuca.github.io/blog/2016/08/01/web-developing</id>
+    <content type="html"><![CDATA[<p>Hello after a long time later. Now I&rsquo;m gonna talk about a new gem about Web Developing on ruby. Almost every developer heard that gem. In this post I&rsquo;m gonna write about Ruby on Rails. Rails is a software library that extends the Ruby programming language. David Heinemeier Hansson is its creator. He gave it the name “Ruby on Rails,” though it is often just called “Rails.”</p>
+
+<p>It is software code that is added to the Ruby programming language. Technically, it is a package library (specifically, a RubyGem), that is installed using the operating system command-line interface. And also this gem is make easier creating new project with other gems. After last my hashes post I will continue this developping way with Rails. That&rsquo;s all. See you on new post :D.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hashes]]></title>
+    <link href="http://mesabuca.github.io/blog/2016/06/12/hashes/"/>
+    <updated>2016-06-12T19:38:00+03:00</updated>
+    <id>http://mesabuca.github.io/blog/2016/06/12/hashes</id>
+    <content type="html"><![CDATA[<p>Hashes are collection of key-values pairs like &ldquo;february&rdquo; &ndash;> &ldquo;2&rdquo; or &ldquo;january&rdquo; &ndash;> &ldquo;1&rdquo;. A hash is a collection of objects like an array. The difference with arrays though, is that the indexes of a hashare not represented with integer values and hashes are collections of keys and their values . Instead, the key can be an object of any type! This means that instead of accessing your hash this way : result = my_hash[4], you can access it this way : result = my_hash[&lsquo;the_thing_im_looking_for&rsquo;] or, to do things in a more rubyish manner : result = my_hash[:the_thing_im_looking_for]. To create a new hash from scratch, you just have to specify the various key/value pairs and separates them with the hash literal “=>” : <code>jobs = { :teachher =&gt; "John", :cop =&gt; "Kane", :cooker =&gt; "Dave"}</code> . You could write it as:  <code>jobs = { teacher: "John", cop: "Kane", cooker: "Dave" }</code>. When you write <code>jobs[:cop]</code> output is going to be <code>"Kane"</code>. Hashes are getting easier collecting and using datas.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Loops]]></title>
