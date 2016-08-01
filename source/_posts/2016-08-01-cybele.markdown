@@ -6,4 +6,4 @@ comments: true
 categories: 
 ---
 
-Hello every one This post for a gem which called as Cybele. Cybele is just like rails but it is present a prepared draft for developer. Just you had to write `cybele [project_name]`, after you download the cybele. This command gave you a template which you can do some changes on that. There is some minus but it'll be fixed in shor time. If you want more information about this gem [click here](https://github.com/lab2023/cybele)
+Hello every one This post for a gem which called as Cybele. Cybele is just like rails but it is present a prepared draft for developer. Just you had to write `cybele [project_name]`, after you download the cybele. This command gave you a template which you can do some changes on that. There is some minus but it'll be fixed in shor time. If you want more information about this gem [click here](https://github.com/lab2023/cybele#cybele)
