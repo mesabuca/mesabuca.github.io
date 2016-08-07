@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Summer Camp of Linux"
-date: 2016-05-07 01:09:08 +0300
+date: 2016-07-05 01:09:08 +0300
 comments: true
 categories: 
 ---
