@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cybele"
+title: "Cybel"
 date: 2016-08-01 12:58:18 +0300
 comments: true
 categories: 
